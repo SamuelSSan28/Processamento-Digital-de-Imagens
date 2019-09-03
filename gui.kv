@@ -1,0 +1,63 @@
+
+<Root>:
+    BoxLayout:
+        id: box
+        orientation: 'vertical'
+        ActionBar:               #definimos a ActionBAr
+            id: actBar
+            pos_hint: {'top':1}  #na parte superior da tela
+            background_normal: '' #alteramos as cores
+            background_color: 1, 1, 1, 1
+
+            ActionView:
+                use_separator: True #A actionview terá uma separação entre os objetos
+
+                ActionPrevious:
+                    title: 'Trabalho de PDI' # Texto identificador do menu
+                    with_previous: False
+                    app_icon: 'logo2.png'
+                ActionOverflow:
+
+                ActionButton:
+                    text: 'Abrir Imagem'
+                    on_release: root.show_load()
+
+                ActionGroup:
+                    mode: 'spinner'
+                    text: 'Filtros'
+                    ActionButton:
+                        text: 'Gray Sacale'
+                        on_release: root.gray_scale()
+
+                    ActionButton:
+                        text: 'Gaussian Blur'
+                        on_release: root.gaussianBlur()
+
+                    ActionButton:
+                        text: 'F3'
+
+        BoxLayout:
+            id: imagem
+            orientation: 'vertical'
+
+
+
+<LoadDialog>:
+    BoxLayout:
+        size: root.size
+        pos: root.pos
+        orientation: "vertical"
+        FileChooserListView:
+            id: filechooser
+
+        BoxLayout:
+            size_hint_y: None
+            height: 30
+            Button:
+                text: "Cancel"
+                on_release: root.cancel()
+
+            Button:
+                text: "Load"
+                on_release: root.load(filechooser.path, filechooser.selection)
+
