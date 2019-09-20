@@ -1,5 +1,6 @@
 import numpy as np
 from matplotlib import pyplot as plt
+import cv2
 
 class Histograma:
     def __init__(self):
@@ -17,6 +18,29 @@ class Histograma:
         plt.legend(('Frequencia dos Pixels', ''), loc='upper left')
         plt.show()
 
+    def exibe_histogramaC(self,img):
+        #bgr
+        blue = cv2.calcHist(img, [0], None, [256], [0, 256])
+        plt.plot(blue, color='b')
+        plt.xlim([0, 256])
+
+        green = cv2.calcHist(img,[1],None,[256],[0,256])
+        plt.plot(green, color='g')
+        plt.xlim([0, 256])
+
+        red = cv2.calcHist(img,[2],None,[256],[0,256])
+        plt.plot(red, color='r')
+        plt.xlim([0, 256])
+
+        plt.title('Histogram for color scale picture')
+        plt.show()
+
     def retorna_acumlada(self,img):
         h = np.histogram(img.flatten(), 256, [0, 256])  # calculando histograma
         return h[0]
+
+    def retorna_acumladaC(self,img):
+        blue = cv2.calcHist(img, [0], None, [256], [0, 256])
+        green = cv2.calcHist(img, [1], None, [256], [0, 256])
+        red = cv2.calcHist(img, [2], None, [256], [0, 256])
+        return [red,green,blue]
