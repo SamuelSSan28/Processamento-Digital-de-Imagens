@@ -1,16 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/dtc_movimento.py" line="46" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="4f609daa-d49d-4c01-9333-84def4c33eaa" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Histogram_Class.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/caneca10.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/caneca11.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/caneca2.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/canecaa.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dtc_movimento.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/PDI.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/PDI.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/histograma.py" beforeDir="false" afterPath="$PROJECT_DIR$/histograma.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,43 +15,19 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/PDI$medidas.coverage" NAME="medidas Coverage Results" MODIFIED="1566750906349" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/PDI$dtc_movimento.coverage" NAME="dtc_movimento Coverage Results" MODIFIED="1568902532556" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/PDI$AbrirImagem.coverage" NAME="AbrirImagem Coverage Results" MODIFIED="1568903850045" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PDI$dtc_movimento.coverage" NAME="dtc_movimento Coverage Results" MODIFIED="1568937458076" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PDI$AbrirImagem.coverage" NAME="AbrirImagem Coverage Results" MODIFIED="1568904296088" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PDI$transformacoes.coverage" NAME="transformacoes Coverage Results" MODIFIED="1568598798923" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PDI$histograma.coverage" NAME="histograma Coverage Results" MODIFIED="1568599082235" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PDI$te.coverage" NAME="te Coverage Results" MODIFIED="1565558624243" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/transformacoes.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="36" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="36" />
-              <folding>
-                <element signature="e#0#10#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AbrirImagem.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-32">
-              <caret line="40" column="58" selection-start-line="40" selection-start-column="12" selection-end-line="40" selection-end-column="58" />
-              <folding>
-                <element signature="e#0#24#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/dtc_movimento.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="22" column="43" selection-start-line="22" selection-start-column="43" selection-end-line="22" selection-end-column="43" />
+            <state relative-caret-position="158">
+              <caret line="50" column="6" lean-forward="true" selection-start-line="50" selection-start-column="6" selection-end-line="50" selection-end-column="6" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
@@ -67,8 +38,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Histogram_Class.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
+            <state relative-caret-position="714">
+              <caret line="44" column="59" selection-start-line="44" selection-start-column="59" selection-end-line="44" selection-end-column="59" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -128,7 +99,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -140,6 +110,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -147,6 +118,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Python" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -168,7 +140,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.AbrirImagem">
+  <component name="RunManager" selected="Python.dtc_movimento">
     <configuration name="AbrirImagem" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="PDI" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -300,8 +272,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.AbrirImagem" />
         <item itemvalue="Python.dtc_movimento" />
+        <item itemvalue="Python.AbrirImagem" />
         <item itemvalue="Python.histograma" />
         <item itemvalue="Python.transformacoes" />
         <item itemvalue="Python.medidas" />
@@ -333,12 +305,29 @@
       <workItem from="1568510851628" duration="616000" />
       <workItem from="1568598774586" duration="3540000" />
       <workItem from="1568763188142" duration="4240000" />
-      <workItem from="1568853759078" duration="6408000" />
+      <workItem from="1568853759078" duration="14184000" />
+      <workItem from="1568914511482" duration="6345000" />
+      <workItem from="1568935667709" duration="3665000" />
     </task>
+    <task id="LOCAL-00001" summary="okok">
+      <created>1568903952516</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1568903952516</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Detectando de Movimento">
+      <created>1568940086874</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1568940086874</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="92276000" />
+    <option name="totallyTimeSpent" value="110062000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -354,27 +343,27 @@
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.20121029" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.20726173" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Database Changes" order="0" />
-      <window_info anchor="bottom" id="Terminal" order="1" weight="0.3289689" />
-      <window_info anchor="bottom" id="Version Control" order="2" weight="0.3289689" />
-      <window_info anchor="bottom" id="Python Console" order="3" visible="true" weight="0.57937807" />
+      <window_info anchor="bottom" id="Terminal" order="1" sideWeight="0.49924356" weight="0.3289689" />
+      <window_info anchor="bottom" id="Version Control" order="2" sideWeight="0.49924356" weight="0.3289689" />
+      <window_info anchor="bottom" id="Python Console" order="3" sideWeight="0.49924356" weight="0.38625205" />
       <window_info anchor="bottom" id="Docker" order="4" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="5" />
       <window_info anchor="bottom" id="Find" order="6" weight="0.3289689" />
-      <window_info anchor="bottom" id="Run" order="7" sideWeight="0.49924356" weight="0.050736498" />
+      <window_info anchor="bottom" id="Run" order="7" sideWeight="0.49924356" weight="0.95090014" />
       <window_info anchor="bottom" id="Debug" order="8" weight="0.7152209" />
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="11" weight="0.3289689" />
-      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.50075644" side_tool="true" weight="0.3584288" />
+      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.50075644" side_tool="true" weight="0.5270049" />
       <window_info anchor="right" id="Database" order="0" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="SciView" order="2" weight="0.32980332" />
-      <window_info anchor="right" id="Ant Build" order="3" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="4" weight="0.25" />
-      <window_info anchor="right" x="0" y="0" width="295" height="544" id="Documentation" order="5" side_tool="true" weight="0.32980332" />
+      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
+      <window_info anchor="right" x="0" y="0" width="295" height="544" id="Documentation" order="4" side_tool="true" weight="0.32980332" />
+      <window_info anchor="right" id="SciView" order="5" weight="0.62632376" />
     </layout>
     <layout-to-restore>
       <window_info id="Favorites" order="0" side_tool="true" />
@@ -402,6 +391,11 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="okok" />
+    <MESSAGE value="Detectando de Movimento" />
+    <option name="LAST_COMMIT_MESSAGE" value="Detectando de Movimento" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
@@ -563,16 +557,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Histogram_Class.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/transformacoes.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -585,20 +569,42 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/AbrirImagem.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-32">
-          <caret line="40" column="58" selection-start-line="40" selection-start-column="12" selection-end-line="40" selection-end-column="58" />
+        <state relative-caret-position="680">
+          <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
           <folding>
             <element signature="e#0#24#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/caneca102.JPG">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/caneca101.JPG">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/caneca67.jpeg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/caneca66.jpeg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/dtc_movimento.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="22" column="43" selection-start-line="22" selection-start-column="43" selection-end-line="22" selection-end-column="43" />
+        <state relative-caret-position="158">
+          <caret line="50" column="6" lean-forward="true" selection-start-line="50" selection-start-column="6" selection-end-line="50" selection-end-column="6" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Histogram_Class.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="44" column="59" selection-start-line="44" selection-start-column="59" selection-end-line="44" selection-end-column="59" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
           </folding>
         </state>
       </provider>
