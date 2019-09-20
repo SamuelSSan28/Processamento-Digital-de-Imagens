@@ -39,7 +39,7 @@ class Histograma:
         h = np.histogram(img.flatten(), 256, [0, 256])  # calculando histograma
         return h[0]
 
-    def retorna_acumladaC(self,img):
+    def retorna_frequenciaC(self,img):
         blue = cv2.calcHist(img, [0], None, [256], [0, 256])
         green = cv2.calcHist(img, [1], None, [256], [0, 256])
         red = cv2.calcHist(img, [2], None, [256], [0, 256])
