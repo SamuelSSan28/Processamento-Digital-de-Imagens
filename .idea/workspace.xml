@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4f609daa-d49d-4c01-9333-84def4c33eaa" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/atv3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/morfologia.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/PDI.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/PDI.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dtc_movimento.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/atv3.py" beforeDir="false" afterPath="$PROJECT_DIR$/atv3.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,10 +28,22 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/atv3.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="186">
-              <caret line="19" selection-start-line="19" selection-end-line="19" />
+            <state relative-caret-position="350">
+              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
               <folding>
-                <element signature="e#0#10#0" expanded="true" />
+                <element signature="e#0#18#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="17" column="60" selection-start-line="17" selection-start-column="47" selection-end-line="17" selection-end-column="60" />
+              <folding>
+                <element signature="e#0#16#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -39,7 +52,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="244">
+            <state relative-caret-position="272">
               <caret line="1740" selection-start-line="1740" selection-end-line="1740" />
             </state>
           </provider>
@@ -82,6 +95,7 @@
         <option value="$PROJECT_DIR$/histograma.py" />
         <option value="$PROJECT_DIR$/Histogram_Class.py" />
         <option value="$PROJECT_DIR$/dtc_movimento.py" />
+        <option value="$PROJECT_DIR$/test.py" />
         <option value="$PROJECT_DIR$/atv3.py" />
       </list>
     </option>
@@ -103,8 +117,8 @@
         <subPane>
           <expand>
             <path>
-              <item name="PDI" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PDI" type="462c0819:PsiDirectoryNode" />
+              <item name="Processamento-Digital-de-Imagens" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Processamento-Digital-de-Imagens" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -113,17 +127,19 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Python" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Samuel\Documents\PDI\Processamento-Digital-de-Imagens" />
       <recent name="C:\Users\samue\PycharmProjects\PDI" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\samue\PycharmProjects\PDI" />
     </key>
   </component>
@@ -247,22 +263,19 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="transformacoes" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="PDI" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/transformacoes.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
       <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="false" />
@@ -272,10 +285,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.atv3" />
+        <item itemvalue="Python.test" />
         <item itemvalue="Python.dtc_movimento" />
         <item itemvalue="Python.AbrirImagem" />
         <item itemvalue="Python.histograma" />
-        <item itemvalue="Python.transformacoes" />
       </list>
     </recent_temporary>
   </component>
@@ -310,6 +323,7 @@
       <workItem from="1569265119455" duration="641000" />
       <workItem from="1570493715534" duration="5210000" />
       <workItem from="1570579150801" duration="3713000" />
+      <workItem from="1571086705440" duration="9838000" />
     </task>
     <task id="LOCAL-00001" summary="okok">
       <created>1568903952516</created>
@@ -329,7 +343,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="123899000" />
+    <option name="totallyTimeSpent" value="133737000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -341,15 +355,16 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.21331316" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.2159383" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Database Changes" order="0" />
-      <window_info anchor="bottom" id="Terminal" order="1" sideWeight="0.49924356" weight="0.3289689" />
-      <window_info anchor="bottom" id="Version Control" order="2" sideWeight="0.49924356" weight="0.3289689" />
-      <window_info active="true" anchor="bottom" id="Python Console" order="3" sideWeight="0.49924356" visible="true" weight="0.39443535" />
+      <window_info anchor="bottom" id="Terminal" order="1" sideWeight="0.49924356" weight="0.32839838" />
+      <window_info anchor="bottom" id="Version Control" order="2" sideWeight="0.49924356" weight="0.32839838" />
+      <window_info anchor="bottom" id="Python Console" order="3" sideWeight="0.49924356" weight="0.39030954" />
       <window_info anchor="bottom" id="Docker" order="4" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="5" />
       <window_info anchor="bottom" id="Find" order="6" weight="0.3289689" />
@@ -408,80 +423,15 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/te.py" />
     <entry file="file://$PROJECT_DIR$/editor.kv" />
-    <entry file="file://$PROJECT_DIR$/../Aulas Kivy/Aula1_p2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="23" lean-forward="true" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="23" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Aulas Kivy/test2.kv">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$USER_HOME$/Documents/Python Scripts/Sidarta/Interface.kv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" column="12" lean-forward="true" selection-start-line="29" selection-start-column="12" selection-end-line="29" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Aulas Kivy/Aula3.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Aulas Kivy/Aula4.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Documents/Python Scripts/Sidarta/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Aulas Kivy/Aula5.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310">
-          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Aulas Kivy/aula6.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Python/Python37/Lib/site-packages/kivy/uix/filechooser.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="65">
-          <caret line="177" selection-start-line="177" selection-end-line="177" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../Aulas Kivy/Aula1_p2.py" />
+    <entry file="file://$PROJECT_DIR$/../Aulas Kivy/test2.kv" />
+    <entry file="file://$PROJECT_DIR$/../../Python Scripts/Sidarta/Interface.kv" />
+    <entry file="file://$PROJECT_DIR$/../Aulas Kivy/Aula3.py" />
+    <entry file="file://$PROJECT_DIR$/../Aulas Kivy/Aula4.py" />
+    <entry file="file://$PROJECT_DIR$/../../Python Scripts/Sidarta/main.py" />
+    <entry file="file://$PROJECT_DIR$/../Aulas Kivy/Aula5.py" />
+    <entry file="file://$PROJECT_DIR$/../Aulas Kivy/aula6.py" />
+    <entry file="file://C:/Python/Python37/Lib/site-packages/kivy/uix/filechooser.py" />
     <entry file="file://$PROJECT_DIR$/logo.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -493,16 +443,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../TwiterAPI/geraGrafico.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="335">
-          <caret line="68" column="48" selection-start-line="68" selection-start-column="39" selection-end-line="68" selection-end-column="48" />
-          <folding>
-            <element signature="e#0#31#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../TwiterAPI/geraGrafico.py" />
     <entry file="file://$PROJECT_DIR$/t.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="484">
@@ -535,13 +476,6 @@
     <entry file="file://$PROJECT_DIR$/canecas4.png" />
     <entry file="file://$PROJECT_DIR$/caneca3.png" />
     <entry file="file://$PROJECT_DIR$/caneca.jpg" />
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_bundle/pydev_umd.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="197" selection-start-line="197" selection-end-line="198" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/histograma.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-92">
@@ -605,19 +539,36 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_bundle/pydev_umd.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="196" selection-start-line="196" selection-end-line="196" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="17" column="60" selection-start-line="17" selection-start-column="47" selection-end-line="17" selection-end-column="60" />
+          <folding>
+            <element signature="e#0#16#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
+        <state relative-caret-position="272">
           <caret line="1740" selection-start-line="1740" selection-end-line="1740" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/atv3.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        <state relative-caret-position="350">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
           <folding>
-            <element signature="e#0#10#0" expanded="true" />
+            <element signature="e#0#18#0" expanded="true" />
           </folding>
         </state>
       </provider>
