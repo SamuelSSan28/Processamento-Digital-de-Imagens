@@ -1,12 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4f609daa-d49d-4c01-9333-84def4c33eaa" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/PDI.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/PDI.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="4f609daa-d49d-4c01-9333-84def4c33eaa" name="Default Changelist" comment="Pratica 3">
+      <change afterPath="$PROJECT_DIR$/separa_formas.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/atv3.py" beforeDir="false" afterPath="$PROJECT_DIR$/atv3.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,11 +22,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/atv3.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+            <state relative-caret-position="595">
+              <caret line="35" column="30" selection-start-line="35" selection-start-column="30" selection-end-line="35" selection-end-column="30" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -37,23 +34,14 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="17" column="60" selection-start-line="17" selection-start-column="47" selection-end-line="17" selection-end-column="60" />
-              <folding>
-                <element signature="e#0#16#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/separa_formas.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="272">
-              <caret line="1740" selection-start-line="1740" selection-end-line="1740" />
+              <caret line="16" column="42" selection-start-line="16" selection-start-column="42" selection-end-line="16" selection-end-column="42" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -73,6 +61,7 @@
       <find>sav'</find>
       <find>cdf</find>
       <find>fdp</find>
+      <find>scn</find>
     </findStrings>
     <replaceStrings>
       <replace>aculmulada</replace>
@@ -80,6 +69,11 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubProjectSettings">
+    <option name="CREATE_PULL_REQUEST_DEFAULT_BRANCH" value="master" />
+    <option name="CREATE_PULL_REQUEST_DEFAULT_REPO_USER" value="SamuelSSan28" />
+    <option name="CREATE_PULL_REQUEST_DEFAULT_REPO_NAME" value="Processamento-Digital-de-Imagens" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -97,6 +91,7 @@
         <option value="$PROJECT_DIR$/dtc_movimento.py" />
         <option value="$PROJECT_DIR$/test.py" />
         <option value="$PROJECT_DIR$/atv3.py" />
+        <option value="$PROJECT_DIR$/separa_formas.py" />
       </list>
     </option>
   </component>
@@ -155,7 +150,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.atv3">
+  <component name="RunManager" selected="Python.separa_formas">
     <configuration name="AbrirImagem" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="PDI" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -241,22 +236,19 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="histograma" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="separa_formas" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="PDI" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/histograma.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/separa_formas.py" />
       <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="false" />
@@ -267,6 +259,9 @@
       <module name="PDI" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -284,11 +279,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.separa_formas" />
         <item itemvalue="Python.atv3" />
         <item itemvalue="Python.test" />
         <item itemvalue="Python.dtc_movimento" />
         <item itemvalue="Python.AbrirImagem" />
-        <item itemvalue="Python.histograma" />
       </list>
     </recent_temporary>
   </component>
@@ -324,6 +319,8 @@
       <workItem from="1570493715534" duration="5210000" />
       <workItem from="1570579150801" duration="3713000" />
       <workItem from="1571086705440" duration="9838000" />
+      <workItem from="1571152317104" duration="4786000" />
+      <workItem from="1571414590098" duration="1943000" />
     </task>
     <task id="LOCAL-00001" summary="okok">
       <created>1568903952516</created>
@@ -339,11 +336,18 @@
       <option name="project" value="LOCAL" />
       <updated>1568940086874</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Pratica 3">
+      <created>1571357751339</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1571357751339</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="133737000" />
+    <option name="totallyTimeSpent" value="140466000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -359,12 +363,12 @@
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.2159383" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.22107969" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Database Changes" order="0" />
       <window_info anchor="bottom" id="Terminal" order="1" sideWeight="0.49924356" weight="0.32839838" />
       <window_info anchor="bottom" id="Version Control" order="2" sideWeight="0.49924356" weight="0.32839838" />
-      <window_info anchor="bottom" id="Python Console" order="3" sideWeight="0.49924356" weight="0.39030954" />
+      <window_info anchor="bottom" id="Python Console" order="3" sideWeight="0.49924356" visible="true" weight="0.39030954" />
       <window_info anchor="bottom" id="Docker" order="4" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="5" />
       <window_info anchor="bottom" id="Find" order="6" weight="0.3289689" />
@@ -411,7 +415,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="okok" />
     <MESSAGE value="Detectando de Movimento" />
-    <option name="LAST_COMMIT_MESSAGE" value="Detectando de Movimento" />
+    <MESSAGE value="Pratica 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="Pratica 3" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
@@ -546,9 +551,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" selection-start-line="17" selection-end-line="17" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
+        <state relative-caret-position="289">
           <caret line="17" column="60" selection-start-line="17" selection-start-column="47" selection-end-line="17" selection-end-column="60" />
           <folding>
             <element signature="e#0#16#0" expanded="true" />
@@ -558,15 +570,25 @@
     </entry>
     <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
+        <state relative-caret-position="562">
           <caret line="1740" selection-start-line="1740" selection-end-line="1740" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/atv3.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+        <state relative-caret-position="595">
+          <caret line="35" column="30" selection-start-line="35" selection-start-column="30" selection-end-line="35" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/separa_formas.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="42" selection-start-line="16" selection-start-column="42" selection-end-line="16" selection-end-column="42" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
