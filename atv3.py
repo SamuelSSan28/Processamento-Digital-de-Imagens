@@ -1,11 +1,10 @@
 import numpy as np
 import cv2
 
-# leitura das imagens
+# leitura da imagem
 img = cv2.imread('morfologia.png', 0)
 
 median = cv2.medianBlur(img, 5)
-
 ret, binaria = cv2.threshold(median, 200, 255, cv2.THRESH_BINARY)
 
 # kernelD = np.ones((3,3), np.uint8)
@@ -16,13 +15,13 @@ erosao = cv2.erode(binaria, kernel, iterations=6)  # destaca partes pretas
 dilatacao = cv2.dilate(erosao, kernel, iterations=5)
 
 
+
+
 # find contours
 contours, hierarchy = cv2.findContours(dilatacao, cv2.RETR_TREE, \
                                             cv2.CHAIN_APPROX_SIMPLE)
-
 # create hull array for convexHull points
 hull = []
-
 # calculate points for each contour
 for i in range(len(contours)):
     hull.append(cv2.convexHull(contours[i], False))
@@ -39,17 +38,23 @@ for i in range(len(contours)):
     # draw convex hull
     cv2.drawContours(drawing, hull, i, color, 2, 8)
 
-cv2.imshow("Output", drawing)
+imgc =  cv2.imread('morfologia.png', 1)
 
-cv2.waitKey(0)
-cv2.destroyAllWindows()
+for i in range(imgc.shape[0]):
+    for j in range(imgc.shape[1]):
+        rgb = drawing[i][j]
+        if  rgb[0] == 255 and rgb[1] == 255 and rgb[2] == 255:
+          imgc[i][j] = [0,50,48]
 
+img = img[0:100, 80:200]
 size = np.size(img)
 skel = np.zeros(img.shape, np.uint8)
 
-ret, img = cv2.threshold(img, 127, 255, 0)
+ret, img = cv2.threshold(img, 200, 255, cv2.THRESH_BINARY)
 element = cv2.getStructuringElement(cv2.MORPH_CROSS, (3, 3))
 done = False
+
+
 
 while (not done):
     eroded = cv2.erode(img, element)
