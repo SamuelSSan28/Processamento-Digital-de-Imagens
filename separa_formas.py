@@ -11,7 +11,6 @@ for i in range(red.shape[0]):
         if not (rgb[0] == 36 and rgb[1] == 28 and rgb[2] == 237):
             red[i][j] = [255, 255, 255]
 
-cv2.imwrite("skel-2.png", red)
 red_gray = cv2.cvtColor(red, cv2.COLOR_BGR2GRAY)
 size = np.size(red_gray)
 skel = np.zeros(red_gray.shape, np.uint8)

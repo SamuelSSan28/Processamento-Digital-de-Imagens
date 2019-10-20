@@ -15,6 +15,7 @@ kernel = np.array((
         [-1, 1,1,1, -1],
         [-1, 1,1,1, -1],
         [-1, -1, 1,-1,-1]), dtype="int")
+
 output_image = cv.morphologyEx(input_image, cv.MORPH_HITMISS, kernel)
 rate = 50
 kernel = (kernel + 1) * 127
