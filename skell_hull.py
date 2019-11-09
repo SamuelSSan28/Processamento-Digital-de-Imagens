@@ -20,7 +20,7 @@ red2 = cv2.medianBlur(red2,5)
 cv2.imwrite("Fecho preechido.png",red2)
 
 img = red2
-#binrizando o ivnerso
+#binrizando o inverso
 for i in range(red2.shape[0]):
     for j in range(red2.shape[1]):
          if img[i][j] == 255:
@@ -28,10 +28,11 @@ for i in range(red2.shape[0]):
          else:
             img[i][j] = 255
 
-cv2.imwrite("Inversa.png",red2)
+cv2.imwrite("frames_video\ fecho_vermelho.png",red2,[16,0])
 size = np.size(img)
 skel = np.zeros(img.shape, np.uint8)
 
+cv2.imshow("ll", img)
 element = cv2.getStructuringElement(cv2.MORPH_CROSS, (3, 3))
 done = False
 
@@ -46,8 +47,8 @@ while (not done):
     if zeros == size:
         done = True
 
-cv2.imwrite("Esquelto do fecho convexo.png",skel)
-cv2.imshow("skel", skel)
+cv2.imwrite("frames_video\Esqueleto do fecho convexo.png",skel,[16,0])
+cv2.imshow("skel", img)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
 

@@ -59,7 +59,7 @@ for i in range(imgc.shape[0]):
             and i!= (imgc.shape[0]-1) and j != (imgc.shape[1]-1) and i!= (imgc.shape[0]-2) and j != (imgc.shape[1]-2))  :
           imgc[i][j] = [0,50,48]
 
-cv2.imwrite("Imagem4.png",imgc)
+cv2.imwrite("frames_video\com_Fecho_Convexo_na_Original.png",imgc,[16,0])
 cv2.imshow("skel", imgc)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
