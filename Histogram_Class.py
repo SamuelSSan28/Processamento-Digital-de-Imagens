@@ -6,7 +6,7 @@ class Histograma:
     def __init__(self):
         pass
 
-    def exibe_histograma(self,img):
+    def exibe_histograma(self,img,titulo = "Histograma"):
         hist, bins = np.histogram(img.flatten(), 256, [0, 256])  # calculando histograma
 
         aculmulada = hist.cumsum()
@@ -15,7 +15,9 @@ class Histograma:
         # plt.plot(aculmulada_normalized, color = 'b')#linha  no grafico
         plt.hist(img.flatten(), 256, [0, 256], color='r')
         plt.xlim([0, 256])
+        plt.title(titulo)
         plt.legend(('Frequencia dos Pixels', ''), loc='upper left')
+        plt.savefig(titulo+'.png', format="PNG")
         plt.show()
 
     def exibe_histogramaC(self,img):
